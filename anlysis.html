@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Trend Analysis</title>
+    <link rel="stylesheet" href="analysis.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>📊 Trend Dashboard</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="analysis.html">Trend Analysis</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">About AI Predictions</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h1>AI-Powered Trend Analysis</h1>
+            <p>Get insights into the latest AI-driven market trends.</p>
+        </header>
+
+        <section class="trend-info">
+            <div class="trend-card">
+                <h2>Current AI Market Trend</h2>
+                <p id="trendResult">Trend: <span>Loading...</span></p>
+            </div>
+            <div class="chart-container">
+                <canvas id="trendChart"></canvas>
+            </div>
+        </section>
+
+        <section class="details">
+            <h2>How AI Predicts Market Trends</h2>
+            <p>AI models analyze historical data, real-time events, and external factors to predict trends. These insights are stored securely on the blockchain for transparency and reliability.</p>
+
+            <h3>🔍 Key Factors Considered:</h3>
+            <ul>
+                <li>📉 Historical price trends</li>
+                <li>📈 Market sentiment analysis</li>
+                <li>💹 Real-time trading volume</li>
+                <li>📊 Social media and news impact</li>
+            </ul>
+
+            <h3>💡 Why Blockchain for Trend Analysis?</h3>
+            <ul>
+                <li>🔒 <strong>Security:</strong> Predictions are stored immutably.</li>
+                <li>📜 <strong>Transparency:</strong> Everyone can verify past trends.</li>
+                <li>⚡ <strong>Efficiency:</strong> AI-powered analysis updates in real time.</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.3/web3.min.js"></script>
+    <script src="anlysis.js"></script>
+</body>
+</html>

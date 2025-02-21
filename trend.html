@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trend Analysis Dashboard</title>
+    <link rel="stylesheet" href="trend.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>📊 Trend Dashboard</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="anlysis.html">Trend Analysis</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">About AI Predictions</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>AI-Powered Trend Analysis</h1>
+            <p>Real-time AI predictions stored securely on the blockchain.</p>
+        </header>
+        <section class="trend-info">
+            <div class="trend-card">
+                <h2>Current Market Trend</h2>
+                <p id="trendResult">Trend: <span>Loading...</span></p>
+            </div>
+            <div class="chart-container">
+                <canvas id="trendChart"></canvas>
+            </div>
+        </section>
+        <section class="details">
+            <h2>How AI Predicts Trends</h2>
+            <p>AI models analyze historical data, market patterns, and external signals to generate trend predictions. These insights are then securely stored on the blockchain, ensuring transparency and immutability.</p>
+            <h3>Why Use Blockchain for Trend Analysis?</h3>
+            <ul>
+                <li>🔒 <strong>Security:</strong> Ensures tamper-proof records of predictions.</li>
+                <li>📜 <strong>Transparency:</strong> Anyone can verify past trends.</li>
+                <li>⏳ <strong>Decentralization:</strong> No single entity controls the data.</li>
+            </ul>
+            <h3>Use Cases</h3>
+            <ul>
+                <li>📈 Stock Market Forecasting</li>
+                <li>💹 Cryptocurrency Price Trends</li>
+                <li>📊 Business Sales Predictions</li>
+                <li>📉 Risk Assessment Models</li>
+            </ul>
+        </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.3/web3.min.js"></script>
+    <script src="trend.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
